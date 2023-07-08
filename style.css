@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(100,40,235), rgba(200,0,100));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container form {
+    width: 100%;
+    height: 100%;
+}
+
+.container form input[type=button], input[type=reset] {
+    border-radius: 50%;
+    border: none;
+    height: 63px;
+    width: 63px;
+    margin: 4px;
+    font-size: 30px;
+}
+
+.container form input[type=textfield] {
+    width: 295px;
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: right;
+    border: none;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container form input {
+    background: rgba(54, 51, 51, 0.6);
+    color: #fff;
+}
+
+.container form .form__operator{
+    background: rgb(207, 140, 14);
+}
+
+.container form .form__reset-equal {
+    background-color: #fff;
+    color: #000;
+}
